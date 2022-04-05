@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinity Tech</title>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!--icon-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--JavaScript-->
+	<link rel="stylesheet" type="text/css" href="Countdown/countdown.js">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="Countdown/countdown.css">
+</head>
+<body>
+
+	<!-----------navbar------------>
+	<div class="button-ontop"><a href="#ontop"><i class="fas fa-angle-double-up"></i></a></div>
+	<header>
+		<div class="menu-bar" id="ontop">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  	<div class="container-fluid">
+				    <a class="navbar-brand" href="index.html"><img src="img/logo/logoteam.jpg" alt="infinitytech"></a>
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					    	<i class="fas fa-bars"></i>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item active">
+								  	<a class="nav-link active"href="#home">Trang chủ</a>
+								</li>
+								<li class="nav-item">
+								  	<a class="nav-link"href="#fsale">Flash Sale</a>
+								</li>
+								<li class="nav-item">
+								  	<a class="nav-link" href="#hot">Nổi bật</a>
+								</li>
+								<li class="nav-item">
+								  	<a class="nav-link" href="#aboutus">About Us</a>
+								</li>
+										
+							</ul>
+							<div class="searchbox">
+								<table class="tbsearchbox">
+									<tr>
+										<td>
+											<input type="text" placeholder="Tìm kiếm" class="search">
+										</td>
+										<td><a href="#"><i class="fas fa-search"></i></a></td>
+									</tr>
+								</table>
+							</div>	
+							<ul class="llogin">
+								<li><a href="login/login.html">Đăng nhập</a></li>
+								<li><a href="login/register.html">Đăng kí</a></li>
+							</ul>
+				    </div>
+			  	</div>
+			</nav>
+		</div>
+		<div class="logo" id="home">
+			<nav class="navbar navbar-expand-lg justify-content-center brand">
+				<div class="container mt-2 mb-2 justify-content-center">
+					<ul class="nav nav-pills nav-fill">
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/apple/apple.html"><img src="img/logo/apple.png" alt="apple-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/masstel/masstel.html"><img src="img/logo/masstel.png" alt="masstel-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/nokia/nokia.html"><img src="img/logo/nokia.png" alt="nokia-lgo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/oppo/oppo.html"><img src="img/logo/oppo.png" alt="oppo-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/realme/realme.html"><img src="img/logo/realme.png" alt="realme-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/samsung/samsung.html"><img src="img/logo/samsung.png" alt="samsung-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/vivo/vivo.html"><img src="img/logo/vivo.png" alt="vivo-logo"></a></li>
+						<li class="nav-item bg-white mr-4"><a class="nav-link" href="Brand/vsmart/vsmart.html"><img src="img/logo/vsmart.png" alt="vsmart-logo"></a></li>
+						<li class="nav-item bg-white xiaomi"><a class="nav-link" href="Brand/xiaomi/xiaomi.html"><img src="img/logo/xiaomi.png" alt="xiami-logo"></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-------carousel-------->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div id="slides" class="carousel slide carousel-fade" data-ride="carousel">
+					<!--Indicators-->
+						<ul class="carousel-indicators">
+				            <li data-target="#slides" data-slide-to="0" class="active"></li>
+				            <li data-target="#slides" data-slide-to="1"></li>
+				            <li data-target="#slides" data-slide-to="2"></li>
+				            <li data-target="#slides" data-slide-to="3"></li>
+				            <li data-target="#slides" data-slide-to="4"></li>
+				            <li data-target="#slides" data-slide-to="5"></li>
+				            <li data-target="#slides" data-slide-to="6"></li>
+		        		</ul>
+						<!--The slideshow-->
+						<div class="carousel-inner">
+				            <div class="carousel-item active">
+				            	<a href="Brand/samsung/product/zflip3-128.html">
+				            		<img src="img/banner/zflip3.png" alt="slide1" class="w-100">
+				            	</a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/apple/product/05.html">
+					                <img src="img/banner/iphone13pro (1).png" alt="slide2" class="w-100">
+					            </a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/apple/product/14.html">
+				                <img src="img/banner/iphone13.png" alt="slide3" class="w-100">
+				              </a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/xiaomi/product/xiaomi11lite5gne.html">
+				                <img src="img/banner/mi11lite.png" alt="slide4" class="w-100">
+				              </a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/realme/product/realme8.html">
+				                <img src="img/banner/realme8.png" alt="slide5" class="w-100">
+				              </a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/oppo/product/reno6-5g.html">
+				                <img src="img/banner/reno6.png" alt="slide6" class="w-100">
+				              </a>
+				            </div>
+				            <div class="carousel-item">
+				            	<a href="Brand/vsmart/product/aris.html">
+				                <img src="img/banner/vsmartaris.png" alt="slide7" class="w-100">
+				              </a>
+				            </div>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!----------best seller----------->
+	<section class="bestseller">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<a href="Brand/apple/product/14.html">
+						<img src="img/bestseller/1.png" alt="bsell1">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<a href="Brand/samsung/product/zfold3-256.html">
+						<img src="img/bestseller/2.png" alt="bsell2">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<a href="Brand/xiaomi/product/xiaomiredmi10.html">
+						<img src="img/bestseller/3.png" alt="bsell3">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<a href="Brand/samsung/product/a52s.html">
+						<img src="img/bestseller/4.png" alt="bsell4">
+					</a>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section class="banner">
+		<div class="container">
+			<a href="Brand/apple/product/14.html">
+				<img src="img/banner/ip13.jpg" alt="ad1">
+			</a>
+		</div>
+	</section>
+
+	<section class="banner" style="margin-top: 10px; margin-bottom: 15px;">
+		<div class="container">
+			<a href="Brand/samsung/product/a52s.html">
+				<img src="img/banner/a52ss.jpg" alt="ad1">
+			</a>
+		</div>
+	</section>
+
+	<!------------flashsale--------------->
+	<section id="fsale">
+		<div class="container">
+			<div class="row">
+				<h3 style="margin-left: 15px" class="spot">F<i class="fa fa-flash flash"></i>ASH SALE ONLINE</h3>
+				<div class="count">
+					<p id="demo" class="countdown"></p>
+    				<script src="Countdown\countdown.js"></script>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<span class="sale" style="background-color: orangered; left: 32px;"><i class="fas fa-fire-alt" style="margin-right: 4px;"></i>HOT SALE<i class="fas fa-fire-alt" style="margin-left: 4px;"></i></span>
+						<a href="Brand/samsung/product/zfold2.html" class="imglink">
+							<img src="img/flash/zfold2.png" class="rounded mx-auto d-block">
+						</a>
+						<div class="infor">
+							<a href="Brand/samsung/product/zfold2.html">Samsung Galaxy Z Fold2 5G - Summer Edition</a>
+						</div>
+						<s>50,000,000₫</s>
+						<div class="price">
+							<b>31,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 500,000₫</span>
+							<a href="Brand/xiaomi/product/xiaominote10s.html" class="imglink">
+								<img src="img/flash/10s.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/xiaomi/product/xiaominote10s.html">Xiaomi Redmi Note 10s</a>
+						</div>
+						<s>6,490,000₫</s>
+						<div class="price">
+							<b>5,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 1,500,000₫</span>
+							<a href="Brand/nokia/product/x10-5g.html" class="imglink">
+								<img src="img/flash/x10.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/nokia/product/x10-5g.html">Nokia X10 5G</a>
+						</div>
+						<s>7,490,000₫</s>
+						<div class="price">
+							<b>5,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 10,000,000₫</span>
+							<a href="Brand/apple/product/19.html" class="imglink">
+								<img src="img/flash/i12mini.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/apple/product/19.html">Iphone 12 Pro - 512GB</a>
+						</div>
+						<s>40,990,000₫</s>
+						<div class="price">
+							<b>30,990,000₫</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--------------ad---------------->
+	<section class="banner">
+		<div class="container">
+			<a href="Brand/samsung/product/zflip3-128.html">
+				<img src="img/banner/zf.jpg" alt="ad2">
+			</a>
+		</div>
+	</section>
+
+	<!---------------hotsale------------------>
+	<section id="hot">
+		<div class="container">
+			<h3 style="margin-top: 15px">Sản phẩm nổi bật</h3>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 700,000₫</span>
+							<a href="Brand/samsung/product/a52s.html" class="imglink">
+								<img src="img/hot/a52s.png" alt="a52s" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/a52s.html">Samsung Galaxy A52s 5G</a>
+						</div>
+						<s>10,990,000₫</s>
+						<div class="price">
+							<b>10,290,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 300,000₫</span>
+							<a href="Brand/xiaomi/product/xiaomiredmi9c.html" class="imglink">
+								<img src="img/hot/9c.png" alt="9c" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/xiaomi/product/xiaomiredmi9c.html">Xiaomi Redmi 9C 4GB/128GB</a>
+						</div>
+						<s>3,490,000₫</s>
+						<div class="price">
+							<b>3,190,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span>Tặng PMH 11,400,000₫</span>
+							<a href="Brand/samsung/product/zfold3-512.html" class="imglink">
+								<img src="img/samsung/zfold3.1.png" alt="zfold3" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/zfold3-512.html">Samsung Galaxy Z Fold3 5G 512GB</a>
+						</div>
+						<div class="price">
+							<b>44,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span>Tặng PMH 8,400,000₫</span>
+							<a href="Brand/samsung/product/zflip3-128.html" class="imglink">
+								<img src="img/samsung/zflip3.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/zflip3-128.html">Samsung Galaxy Z Flip3 5G 128GB</a>
+						</div>
+						<div class="price">
+							<b>24,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i></i>Giảm 740,000₫</span>
+							<a href="Brand/samsung/product/a52.html" class="imglink">
+								<img src="img/samsung/a52.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/a52.html">Samsung Galaxy A52</a>
+						</div>
+						<s>9,290,000₫</s>
+						<div class="price">
+							<b>8,550,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 1,600,000₫</span>
+							<a href="Brand/samsung/product/a72.html" class="imglink">
+								<img src="img/samsung/a72.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/a72.html">Samsung Galaxy A72</a>
+						</div>
+						<s>11,490,000₫</s>
+						<div class="price">
+							<b>9,890,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 400,000₫</span>
+							<a href="Brand/samsung/product/a12.html" class="imglink">
+								<img src="img/samsung/a12.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/a12.html">Samsung Galaxy A12</a>
+						</div>
+						<s>4,290,000₫</s>
+						<div class="price">
+							<b>3,890,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<span class="sale" style="background-color: orangered; left: 32px;"><i class="fas fa-fire-alt" style="margin-right: 4px;"></i>HOT SALE<i class="fas fa-fire-alt" style="margin-left: 4px;"></i></span>
+						<a href="Brand/samsung/product/zfold2.html" class="imglink">
+							<img src="img/samsung/zfold2.png" class="rounded mx-auto d-block">
+						</a>
+						<div class="infor">
+							<a href="Brand/samsung/product/zfold2.html">Samsung Galaxy Z Fold2 5G - Summer Edition</a>
+						</div>
+						<div class="price">
+							<b>31,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 6,200,000₫</span>
+							<a href="Brand/samsung/product/s21ultra-256.html" class="imglink">
+								<img src="img/samsung/s21ultra.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/s21ultra-256.html">Samsung Galaxy S21 Ultra 5G 256GB</a>
+						</div>
+						<s>33,990,000₫</s>
+						<div class="price">
+							<b>27,350,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="mx-auto product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 8,640,000₫</span>
+							<a href="Brand/samsung/product/s21plus-128.html" class="imglink">
+								<img src="img/samsung/s21plus.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/s21plus-128.html">Samsung Galaxy S21 Plus 5G 128GB</a>
+						</div>
+						<s>25,990,000₫</s>
+						<div class="price">
+							<b>17,350,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="mx-auto product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 10,000,000₫</span>
+							<a href="Brand/samsung/product/s21plus-256.html" class="imglink">
+								<img src="img/samsung/s21plus.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/s21plus-256.html">Samsung Galaxy S21 Plus 5G 256GB</a>
+						</div>
+						<s>38,990,000₫</s>
+						<div class="price">
+							<b>18,990,000₫</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6">
+					<div class="mx-auto product">
+						<div>
+							<span class="sale"><i class="fa fa-flash"></i>Giảm 11,500,000₫</span>
+							<a href="Brand/samsung/product/note20ultra.html" class="imglink">
+								<img src="img/samsung/note20ultra.png" class="rounded mx-auto d-block">
+							</a>
+						</div>
+						<div class="infor">
+							<a href="Brand/samsung/product/note20ultra.html">Samsung Galaxy Note 20 Ultra</a>
+						</div>
+						<s>29,990,000₫</s>
+						<div class="price">
+							<b>18,490,000₫</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+<!-- about us -->
+
+<div class="aboutus" id="aboutus">
+	<div class="container">
+		<div class="row">
+			<div class="content-section col-lg-8 col-md-12">
+				<h1>About Us</h1>
+				<div class="content">
+					<h4>Trần Huy Hiệp - Công nghệ thông tin 1 - Khóa 61 <br> Đại học Giao Thông Vận Tải.</h4>
+					<p>Ngày nay, điện thoại di động đã trở thành công cụ hữu ích và cần thiết cho tất cả mọi người. Có nhiều loại điện thoại smartphone khác nhau như Iphone, Samsung tiên tiếp ra đời để theo kịp xu hướng công nghệ. Đến với <strong> cửa hàng chúng tôi</strong> bạn sẽ có rất nhiều sự lựa tốt nhất trong tầm giá.</p>
+					<div class="button">
+						<a href="#">Đọc thêm</a>
+					</div>
+				</div>
+			</div>
+			<div class="img-section col-lg-4 col-md-12">
+				<img src="img/profile/Logo_truong gtvt.png" alt="social">
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+	<footer class="page-footer font-small unique-color-dark">
+	<!-- Footer Links -->
+  	<div class="container text-center text-md-left mt-5 pt-4">
+    <!-- Grid row -->
+    <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Hỗ Trợ - Dịch vụ</h6>
+        <hr class="bg-light accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px; height: 2px;">
+        <a href="#"><p>Mua hàng trả góp</p></a>
+        <a href="#"><p>Hướng dẫn đặt hàng</p></a>
+        <a href="#"><p>Chính sách bảo hành</p></a>
+        <a href="#"><p>Chính sách bảo mật</p></a>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Thanh toán:</h6>
+        <hr class="bg-light accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height:2px;">
+        <p>
+          <a href="#!"><img src="img/footer/logo-visa.png" alt="visa"></a>
+          <a href="#!"><img src="img/footer/logo-master.png" alt="master"></a>
+        </p>
+        <p>
+          <a href="#!"><img src="img/footer/logo-samsungpay.png" alt="samsungpay"></a>
+          <a href="#!"><img src="img/footer/logo-atm.png" alt="atm"></a>
+        </p>
+        <p>
+          <a href="#!"><img src="img/footer/logo-vnpay.png" alt="vnpay"></a>
+          <a href="#!"><img src="img/footer/logo-jcb.png" alt="jcb"></a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Hình thức vận chuyển</h6>
+        <hr class="bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px; height: 2px;">
+        <p>
+          <a href="#"><img src="img/footer/vnpost.jpg" alt="vnpost"></a> 
+          <a href="#"><img src="img/footer/ahamove.png" alt="ahamove"></a>
+        </p>
+        <p>
+          <a href="#"><img src="img/footer/shopeexpress.png" alt="ahamove"></a>
+          <a href="#"><img src="img/footer/giaohangnhanh.png" alt="giaohangnhanh"></a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Thông tin liên hệ:</h6>
+        <hr class="bg-light accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 160px; height: 2px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>Số 1, đường Cầu Giấy, Hà Nội</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> tranhuyhiep0710@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 098 765 432</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 098 765 4321</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

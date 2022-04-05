@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<title>Đăng nhập</title>
+</head>
+
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Đăng nhập</h2>
+	</div>
+	<form class="form" id="form">
+		<div class="form-control">
+			<label>Số điện thoại</label>
+			<input type="text" placeholder="0912.123.123" id="username">
+			<i class="fas fa-check-circle"></i>
+		    <i class="fas fa-exclamation-circle"></i>
+			<small>Không hợp lệ</small>
+		</div>
+		<div class="form-control">
+			<label>Mật khẩu</label>
+			<input type="password" placeholder="password" id="password">
+			<i class="fas fa-check-circle"></i>
+		    <i class="fas fa-exclamation-circle"></i>
+			<small>Không hợp lệ</small>
+		</div>
+		<button type="submit" value="Submit">Xác nhận</button>
+		<p>Bạn chưa có tài khoản? Đăng kí <a href="register.html">tại đây</a></p>
+	</form>
+</div>
+</body>
+<script src="login.js"></script>
+</html>

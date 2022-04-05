@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	font-family: vernada, sans-serif;
+	width: 100%;
+}
+h3{
+	background-image: linear-gradient(-90deg, #d38312, #a83279);
+	padding: 5px;
+	border: 2px;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+h3.spot{
+	width: 360px;
+}
+/*-------button on top-------*/
+.button-ontop i {
+	font-size: 200%;
+	color: #FF0000;
+}
+.button-ontop a {
+	padding: 15px 10px 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color:#FFFAFA;
+}
+div.button-ontop {
+	bottom: 20px;
+	right: 5px;
+	position: fixed;
+}
+
+/*------------Menubar------------*/
+.menu-bar {
+	background-image: linear-gradient(-90deg, #d38312, #a83279);
+}
+.menu-bar .nav-link {
+	font-style: 16px;
+	margin: 3px;
+	color: #fff !important;
+	font-weight: bold;
+}
+.menu-bar .nav-link:hover {
+	transform: scale(1.1);
+	position: relative;
+	top: -5px;
+	border-bottom: 1px solid #fff;
+}
+.menu-bar .navbar .fa {
+	color: #fff !important;
+	font-size: 26px;
+}
+.menu-bar .navbar-toggler {
+	padding-right: 20px;
+	outline: none !important;
+	border: none !important;
+}
+.menu-bar .navbar-nav {
+	text-align: right;
+	margin-right: 20px; 
+}
+.logo li:hover {  /*Logo Brand*/
+	transform: scale(1.2);
+}
+header ul.nav li {   /*Logo Brand*/
+	border-radius: 15px;
+	width: 100px;
+	height: 50px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 10px;
+}
+header a.navbar-brand img { /*Logo Team*/
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+}
+header ul.nav li img { /*Logo Brand*/
+	margin: -20px;
+}
+nav.brand{ /**/
+	background-color: #f4f4f4;
+}
+
+/*----------Login------------*/
+ul.llogin li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: #fff;
+	width: 100px;
+	height: 40px;
+	border: 2px solid indianred;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 30px;
+	position: relative;
+	top: 8px;
+	text-align: center;
+	padding: 5px;
+}
+ul.llogin li a {
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-weight: bold;
+}
+ul.llogin li:hover {
+	transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+	.menu-bar .nav-link:hover {
+		border-bottom: none !important;
+	}
+}
+.searchbox {
+	border: 2px solid indianred;
+	border-radius: 50px;
+	margin: auto;
+	width: 400px;
+	height: 45px;
+	background-color: #fff;
+}
+@media only screen and (max-width: 1300px) {
+	.searchbox {
+		width: 200px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.searchbox {
+		width: 100px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.searchbox {
+		width: 75px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 990px) {
+	.searchbox {
+		width: 250px;
+		align-content: right;
+		margin-right: 0px;
+	}
+	ul.llogin{
+		margin-right: 0px;
+		text-align: right;
+	}
+	ul.navbar-nav a.nav-link:hover {
+		transform: scale(1.1);
+		position: relative;
+		right: 35px; 
+		top: -5px;
+		border-bottom: 1px solid #fff;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+.tbsearchbox {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.search {
+	margin: 0 5px;
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 0 5px;
+	border-radius: 50px;
+	font-family: "nunito";
+	color: #42424242;
+	font-weight: 500;
+	background-color: #fff;
+}
+.search:focus {
+	outline: none;
+	color: black;
+	font-style: 20px;
+}
+.fa-search {
+	font-size: 20px;
+	color: indianred;
+}
+
+/*------product------*/
+div.infor a{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+}
+/*.infor a:hover{
+	font-size: 18px;
+	color: royalblue;
+}*/
+.product:hover{
+	transform: scale(1.1);
+	position: relative;
+}
+div.price{
+	font-size: 17px;
+	color: orangered;
+}
+div.price{
+	text-align: center;
+}
+div.product{
+	background-color: white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 2px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+	height: 350px;
+}
+div.product img{
+	max-width: 100%;
+	height: auto;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+span{
+	border: 2px;
+	background-color: #d38312;
+	position: absolute;
+	top: 110px;
+	left: 25px;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 130px;
+	height: auto;
+	padding: 3px;
+	color: white;
+}
+span.sale{
+	background-color: #a83279;
+	top: 110px;
+	padding: 5px;
+}
+s{
+	font-size: 14px;
+	font-weight: bold;
+}
+nav.page{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+/*-----------bestseller-----------*/
+section.bestseller img{
+	max-width: 100%;
+	height: auto;
+	width: 350px;
+}
+section.bestseller a img:hover{
+	transform: scale(1.1);
+}
+section.bestseller div.container div{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+/*----------banner----------*/
+section.banner img{
+	max-width: 100%;
+	border: 2px;
+	border-radius: 15px;
+}
+
+/*----------carousel---------*/
+div.carousel{
+	margin-top: 10px;
+}
+div.carousel-item img{
+	border: 3px solid #f4f4f4;
+	border-radius: 12px;
+}
+
+/*iiiiiiiiiiiiiii*/
+i{
+	margin-right: 3px;
+	color: white;
+}
+i.flash{
+	color: #ff6600;
+	margin: 0;
+}
+span.sale i.flash{
+	margin-right: 4px;
+}
+
+/*--------about us------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.aboutus {
+		margin-top: 20px;
+		width: 100%;
+		min-height: 450px;
+		background-color: #ddd;
+		font-family: 'Roboto', sans-serif;
+	}
+.aboutus .container {
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 40px;
+}
+.aboutus .content-section {
+	float: left;
+	width: 55%;
+}
+.aboutus .img-section {
+	float: right;
+	width: 40%;
+}
+.aboutus img {
+	width: 100%;
+	height: auto;
+	margin: 20px 0px 20px;
+}
+.aboutus h1 {
+	text-transform: uppercase;
+	font-weight: 32px;
+}
+.aboutus h3 {
+	margin-top: 20px;
+	color: #5d5d5d;
+	font-size: 21px;
+}
+.aboutus p {
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.aboutus .button {
+	margin-top: 30px;
+}
+.aboutus .button a {
+	background-color: #3d3d3d;
+	padding: 12px 40px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.aboutus .button a:hover {
+	background-color: #a52a2a;
+	color: #fff;
+}
+
+
+/*my team*/
+.team {
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.team .header {
+	margin: 20px auto; 
+}
+.team img {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	border: 10px solid #fff;
+	margin-left: 50px;
+}
+.team .container {
+	text-align: center;
+}
+.team h1 {
+	display: inline;
+	border-bottom: 5px solid black;
+}
+.team .onepeople {
+	border-radius: 20px;
+	border: 1px solid #49494949;
+	box-shadow: 15px 15px 0px #42424242;
+	width: 350px;
+	padding: 0px;
+	margin: 15px;
+	background: #EECDA3;
+    background: -webkit-linear-gradient(to top, #EF629F, #EECDA3);
+    background: linear-gradient(to top, #EF629F, #EECDA3);
+}
+.team .about {
+	padding: 20px 0px 10px 0px;
+	overflow: hidden;
+}
+.team .about h5, .team h6, .team p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.team ul {
+	margin: 0px;
+	text-align: center;
+}
+.team ul li {
+	display: inline-block;
+}
+.team ul li i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.team ul li i:hover, .team ul li i:focus {
+	background: #fff;
+}
+.team ul li i.fa-facebook:hover {
+	background: #fff;
+	color: blue;
+}
+.team ul li i.fa-instagram:hover {
+	background: #fff;
+	color: red;
+}
+.team ul li i.fa-twitter:hover {
+	background: #fff;
+	color: blue;
+}
+.team ul li i.fa-github:hover {
+	background: #fff;
+	color: black;
+}
+
+.team ul li a:hover{
+	text-decoration: none;
+}
+.team .people:hover {
+	background-color: blue;
+}
+.team .ul a {
+	text-decoration: none;
+}
+/*footer*/
+footer {
+	background-image: linear-gradient(-90deg, #d38312, #a83279);
+	color: white;
+}
+footer p a img {
+	width: 77px;
+	height: 30px;
+}
+footer div a p {
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer a p:hover{
+	color: black;
+}

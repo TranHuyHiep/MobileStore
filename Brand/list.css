@@ -1,0 +1,262 @@
+body{
+	background-color: #f4f4f4;
+	padding: 0;
+	margin: 0;
+	font-family: vernada, sans-serif;	
+}
+div.infor a{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+}
+/*.infor a:hover{
+	font-size: 18px;
+	color: royalblue;
+}*/
+.product:hover{
+	transform: scale(1.1);
+	position: relative;
+}
+div.price{
+	font-size: 17px;
+	color: orangered;
+}
+div.price{
+	text-align: center;
+}
+div.product{
+	background-color: white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 2px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+	height: 350px;
+}
+div.product img{
+	max-width: 100%;
+	height: auto;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+span{
+	border: 2px;
+	background-color: #d38312;
+	position: absolute;
+	top: 110px;
+	left: 25px;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 130px;
+	height: auto;
+	padding: 3px;
+	color: white;
+}
+span.sale{
+	background-color: #a83279;
+	top: 110px;
+	padding: 3px;
+}
+span.sale i.fa-flash{
+	margin-right: 4px;
+}
+s{
+	font-size: 14px;
+	font-weight: bold;
+}
+nav.page{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+nav.page a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+nav.page a:hover{
+	color: #d38312;
+}
+
+.menu-bar {
+	background-image: linear-gradient(-90deg, #d38312, #a83279);
+}
+.menu-bar .nav-link {
+	font-style: 16px;
+	margin: 3px;
+	color: #fff !important;
+	font-weight: bold;
+}
+.menu-bar .nav-link:hover {
+	transform: scale(1.1);
+	position: relative;
+	top: -5px;
+	border-bottom: 1px solid #fff;
+}
+.menu-bar .navbar .fa {
+	color: #fff !important;
+	font-size: 26px;
+}
+.menu-bar .navbar-toggler {
+	padding-right: 20px;
+	outline: none !important;
+	border: none !important;
+}
+.menu-bar .navbar-nav {
+	text-align: right;
+	margin-right: 20px; 
+}
+
+
+ul.llogin li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: #fff;
+	width: 100px;
+	height: 40px;
+	border: 2px solid indianred;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 30px;
+	position: relative;
+	top: 8px;
+	text-align: center;
+	padding: 5px;
+}
+ul.llogin li a {
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-weight: bold;
+}
+ul.llogin li:hover {
+	transform: scale(1.1);
+}
+.logo li:hover {
+	transform: scale(1.2);
+}
+@media only screen and (max-width: 1000px) {
+	.menu-bar .nav-link:hover {
+		border-bottom: none !important;
+	}
+}
+.searchbox {
+	border: 2px solid indianred;
+	border-radius: 50px;
+	margin: auto;
+	width: 400px;
+	height: 45px;
+	background-color: #fff;
+}
+@media only screen and (max-width: 1300px) {
+	.searchbox {
+		width: 200px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.searchbox {
+		width: 100px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.searchbox {
+		width: 75px;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 990px) {
+	.searchbox {
+		width: 250px;
+		align-content: right;
+		margin-right: 0px;
+	}
+	ul.llogin{
+		margin-right: 0px;
+		text-align: right;
+	}
+	ul.navbar-nav a.nav-link:hover {
+		transform: scale(1.1);
+		position: relative;
+		right: 35px; 
+		top: -5px;
+		border-bottom: 1px solid #fff;
+	}
+	li.xiaomi{
+		margin-right: 25px;
+	}
+}
+.tbsearchbox {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.search {
+	margin: 0 5px;
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 0 5px;
+	border-radius: 50px;
+	font-family: "nunito";
+	color: #42424242;
+	font-weight: 500;
+	background-color: #fff;
+}
+.search:focus {
+	outline: none;
+	color: black;
+	font-style: 20px;
+}
+.fa-search {
+	font-size: 20px;
+	color: indianred;
+}
+header ul.nav li {
+	border-radius: 15px;
+	width: 100px;
+	height: 50px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 10px;
+}
+nav.brand{
+	background-color: #f4f4f4;
+}
+header ul.nav li img {
+	margin: -20px;
+}
+
+
+footer {
+	background-image: linear-gradient(-90deg, #d38312, #a83279);
+	color: white;
+}
+footer p a img {
+	width: 77px;
+	height: 30px;
+}
+footer div a p {
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer a p:hover{
+	color: black;
+}
+header a.navbar-brand img {
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+}
